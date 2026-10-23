@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FCFCFA">
+  <meta name="robots" content="noindex">
+  <title>会员专区｜Penny AI Teaching</title>
+  <link rel="icon" href="assets/logo-monogram.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site-content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="wordmark" href="index.html" aria-label="Penny AI Teaching 首页">
+        <img class="brand-logo" src="assets/logo-horizontal.png" alt="Penny · English &amp; AI Teaching" width="1984" height="768">
+        <span class="mobile-brand" aria-hidden="true"><img src="assets/logo-monogram.png" alt="" width="64" height="64"><span><strong>Penny</strong><small>English &amp; AI Teaching</small></span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="打开导航菜单">
+        <svg class="menu-open-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="menu-close-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+      </button>
+      <nav id="main-nav" class="main-nav" aria-label="主要导航">
+        <a href="index.html#home">首页</a>
+        <a href="index.html#about">关于 Penny</a>
+        <a href="index.html#courses">课程与会员</a>
+        <a href="membership.html" aria-current="page">会员专区</a>
+        <a href="index.html#resources">教学资源</a>
+        <a href="index.html#recharge">AI 加油充值</a>
+        <a href="index.html#contact">联系方式</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="membership-page container">
+    <h1 id="member-title">会员专区</h1>
+    <p class="member-price">会员年费 ¥299 / 年</p>
+    <p class="member-description">专区正在建设中，会员内容（专题直播与回放、会员资料库、群内答疑）会陆续上线。</p>
+
+    <div class="member-gate">
+      <ol class="member-benefits" aria-label="会员权益">
+        <li class="benefit-row"><span class="course-number">01</span><div><h2 class="benefit-title">会员专属专题直播</h2><p class="benefit-description">每月一场，结合实际教学场景讲解，提供回放。</p></div></li>
+        <li class="benefit-row"><span class="course-number">02</span><div><h2 class="benefit-title">会员资料库</h2><p class="benefit-description">Skill、Prompt、工作流与实用资料持续更新。</p></div></li>
+        <li class="benefit-row"><span class="course-number">03</span><div><h2 class="benefit-title">群内答疑与交流</h2><p class="benefit-description">会员群里提问，与其他老师一起交流教学实践。</p></div></li>
+      </ol>
+      <div class="member-actions">
+        <a class="button button-primary" href="index.html#contact">加入会员 · 联系 Penny</a>
+      </div>
+      <p class="member-description" style="margin-top:26px">已经是会员？开通后我们会把你的手机号登记进去，届时直接在本页输入手机号进入。</p>
+      <a class="text-link member-back" href="index.html">返回首页</a>
+    </div>
+    <noscript><p>请启用 JavaScript 以正常浏览本站。</p></noscript>
+  </main>
+  <footer class="site-footer member-footer"><div class="footer-inner container"><a class="wordmark" href="index.html" aria-label="返回 Penny AI Teaching 首页"><img class="brand-logo" src="assets/logo-horizontal.png" alt="Penny · English &amp; AI Teaching" width="1984" height="768"></a><p>© 2026 Penny AI Teaching</p></div></footer>
+  <dialog id="information-dialog" aria-labelledby="dialog-title"><div class="dialog-header"><h2 id="dialog-title"></h2><button id="dialog-close" type="button" class="icon-button" aria-label="关闭"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div><p id="dialog-message"></p><button id="dialog-ok" type="button" class="button button-primary">知道了</button></dialog>
+</body>
+</html>
